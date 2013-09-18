@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)TestButtonTapped:(id)sender {
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Git Test" message:@"Just for Tesst" delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
+    [alert show];
+    
+}
 @end
