@@ -19,6 +19,7 @@
 		C379AADF17E97E4D003062FD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379AADD17E97E4D003062FD /* MainStoryboard_iPhone.storyboard */; };
 		C379AAE217E97E4D003062FD /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C379AAE017E97E4D003062FD /* MainStoryboard_iPad.storyboard */; };
 		C379AAE517E97E4D003062FD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C379AAE417E97E4D003062FD /* ViewController.m */; };
+		C379AAED17E9819F003062FD /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = C379AAEC17E9819E003062FD /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,8 @@
 		C379AAE117E97E4D003062FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C379AAE317E97E4D003062FD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C379AAE417E97E4D003062FD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C379AAEB17E9819E003062FD /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		C379AAEC17E9819E003062FD /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				C379AAE317E97E4D003062FD /* ViewController.h */,
 				C379AAE417E97E4D003062FD /* ViewController.m */,
 				C379AACC17E97E4D003062FD /* Supporting Files */,
+				C379AAEB17E9819E003062FD /* MapForItinerary.h */,
+				C379AAEC17E9819E003062FD /* MapForItinerary.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				C379AAD217E97E4D003062FD /* main.m in Sources */,
 				C379AAD617E97E4D003062FD /* AppDelegate.m in Sources */,
 				C379AAE517E97E4D003062FD /* ViewController.m in Sources */,
+				C379AAED17E9819F003062FD /* MapForItinerary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
